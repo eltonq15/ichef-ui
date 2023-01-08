@@ -6,8 +6,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
     font-weight: 400;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
 }
 
 .root {
@@ -24,7 +23,8 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -33,8 +33,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     max-width: 700px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px 10px;
     position: relative;
     z-index: 1;
     background: rgba(255, 255, 255, 0.5);
@@ -102,11 +101,35 @@ body {
     transition: 0.4s;
 }
 
+.search-btn:disabled {
+    background-color: #ccc;
+}
+
 .recipe {
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
-    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background: rgba(255, 255, 255, 0.5);
+    resize: none;
+    height: 280px;
+
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #12cad6;
+}
+
+
