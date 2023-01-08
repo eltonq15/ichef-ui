@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ichef-ui/static/css/main.6299881c.css",
+    "main.js": "/ichef-ui/static/js/main.a74cfcb0.js",
+    "index.html": "/ichef-ui/index.html",
+    "main.6299881c.css.map": "/ichef-ui/static/css/main.6299881c.css.map",
+    "main.a74cfcb0.js.map": "/ichef-ui/static/js/main.a74cfcb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6299881c.css",
+    "static/js/main.a74cfcb0.js"
+  ]
+}
