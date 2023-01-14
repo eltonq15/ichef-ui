@@ -103,16 +103,6 @@ export const RANDOM_RECIPE_MSG = {
   pt: "O gerador de receitas também pode gerar uma receita aleatória para o usuário, o que pode ser útil se o usuário estiver procurando inspiração na cozinha. A saída da receita aleatória inclui o título da receita, ingredientes, instruções e a renda, tornando fácil para os usuários entender a receita e fazê-la em sua casa.",
 };
 
-export const DIETARY_RESTRICTIONS_TITLE = {
-  en: "Filtering by dietary restrictions",
-  pt: "Filtragem por restrições dietéticas",
-};
-
-export const DIETARY_RESTRICTIONS_MSG = {
-  en: "The generator can also filter the generated recipes based on the user's dietary restrictions, such as gluten-free, vegetarian, or vegan, ensuring that the generated recipe will meet the user's dietary needs. The recipe output includes the recipe title, ingredients, instructions, and the yield, making it easy for users to understand the recipe and make it at their home.",
-  pt: "O gerador também pode filtrar as receitas geradas com base nas restrições dietéticas do usuário, como livre de glúten, vegetariano ou vegano, garantindo que a receita gerada atenda às necessidades dietéticas do usuário. A saída da receita inclui o título da receita, ingredientes, instruções e a renda, tornando fácil para os usuários entender a receita e fazê-la em sua casa.",
-};
-
 export const RECIPE_OUTPUT_TITLE = {
   en: "Generated recipe",
   pt: "Receita gerada",
