@@ -158,7 +158,7 @@ export const ABOUT_THE_DEVELOPER_MSG = {
     first: `Conheça Elton, o criador do nosso site, um
     Desenvolvedor Full-Stack com mais de 3 anos de experiência em
     desenvolvimento web. Ele nasceu em Curitiba, Brasil, e atualmente
-    mora em Porto, Portugal.`,
+    mora no Porto, em Portugal.`,
     second: `
     Elton sempre teve uma paixão por tecnologia e seu potencial de tornar
     a vida mais fácil e eficiente. Com este site, ele espera introduzir
@@ -167,14 +167,14 @@ export const ABOUT_THE_DEVELOPER_MSG = {
     ingredientes de um usuário, Elton espera tornar a culinária mais
     divertida e acessível para todos.`,
     third: `
-    O background de Elton em desenvolvimento web permitiu que ele criasse
+    Seu background em desenvolvimento web permitiu que ele criasse
     um site fácil de usar e eficiente que é fácil de navegar e cheio de
     recursos úteis. Ele está sempre procurando novas maneiras de melhorar
     o site e torná-lo ainda mais amigável ao usuário.`,
     fourth: `
-    Esperamos que você aproveite o uso do nosso site tanto quanto Elton
-    aproveitou a criação dele. Se você tiver algum feedback ou
+    Esperamos que você curta o nosso site tanto quanto Elton
+    curtiu criá-lo. Se tiver algum feedback ou
     sugestões, não hesite em entrar em contato conosco. Estamos sempre
-    procurando maneiras de melhorar e tornar o site ainda melhor.`,
+    procurando maneiras de tornar o site ainda melhor.`,
   },
 };
