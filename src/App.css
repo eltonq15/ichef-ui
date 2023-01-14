@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lora', serif;
-    background: linear-gradient(100deg, #f3ec78, #af4261, #12cad6);
+    background: linear-gradient(94deg, #f3ec78, #af4261, #12cad6);
     font-size: 1.5rem;
     line-height: 1.5;
     font-weight: 400;
@@ -35,7 +35,7 @@ body {
     align-items: center;
     width: inherit;
     box-shadow: 0 0 10px rgb(0 0 0 / 20%);
-    margin: 20px 10px;
+    margin: 10px;
     position: relative;
     z-index: 1;
     background: rgba(255, 255, 255, 0.5);
@@ -112,7 +112,7 @@ body {
 .subtitle:before {
     content: '';
     display: block;
-    width: 400px;
+    max-width: 400px;
     height: 2px;
     background-color: #12cad6;
     margin: 5px auto;
@@ -124,7 +124,7 @@ body {
     margin-bottom: 20px;
     color: #164043;
     text-align: justify;
-    padding: 0 50px;
+    padding: 0 25px;
 }
 
 .ingredients-input {
@@ -133,7 +133,7 @@ body {
     padding: 3px;
     font-size: 1.2rem;
     font-weight: 100;
-    margin: 10px 50px;
+    margin: 10px 25px;
     color: #164043;
     padding: 10px;
 }
@@ -153,7 +153,7 @@ body {
     padding: 3px;
     font-size: 1.2rem;
     font-weight: 100;
-    margin: 10px 50px;
+    margin: 10px 25px;
     color: #fff;
     padding: 10px;
     cursor: pointer;
