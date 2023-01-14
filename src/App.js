@@ -82,10 +82,10 @@ const App = () => {
       <nav className="navbar">
         <select className="language-select" onChange={handleChangeLanguage}>
           <option value="en" selected={isLanguageSelected("en")}>
-            English {isLanguageSelected("en") && "⬇"}
+            🇬🇧 English {isLanguageSelected("en") && "⬇"}
           </option>
           <option value="pt" selected={isLanguageSelected("pt")}>
-            Português {isLanguageSelected("pt") && "⬇"}
+            🇧🇷 Português {isLanguageSelected("pt") && "⬇"}
           </option>
         </select>
       </nav>
