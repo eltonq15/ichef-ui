@@ -7,8 +7,6 @@ import {
   ALGORITHM_MSG,
   ALGORITHM_TITLE,
   CARD_MSG,
-  DIETARY_RESTRICTIONS_MSG,
-  DIETARY_RESTRICTIONS_TITLE,
   ERROR_MSG,
   INPUT_INGREDIENTS_MSG,
   INPUT_INGREDIENTS_TITLE,
@@ -150,8 +148,6 @@ const App = () => {
         <h2 className="subtitle">{RANDOM_RECIPE_TITLE[language]}</h2>
         <p className="description">{RANDOM_RECIPE_MSG[language]}</p>
 
-        <h2 className="subtitle">{DIETARY_RESTRICTIONS_TITLE[language]}</h2>
-        <p className="description">{DIETARY_RESTRICTIONS_MSG[language]}</p>
         <h2 className="subtitle">{RECIPE_OUTPUT_TITLE[language]}</h2>
         <p className="description">{RECIPE_OUTPUT_MSG[language]}</p>
       </div>
