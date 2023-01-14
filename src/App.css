@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Pacifico', cursive;
-    background: linear-gradient(45deg, #f3ec78, #af4261, #12cad6);
+    font-family: 'Lora', serif;
+    background: linear-gradient(100deg, #f3ec78, #af4261, #12cad6);
     font-size: 1.5rem;
     line-height: 1.5;
     font-weight: 400;
@@ -66,7 +66,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    max-width: 700px;
+    max-width: 900px;
     margin: 20px 10px;
     position: relative;
     z-index: 1;
@@ -83,6 +83,15 @@ body {
 }
 
 .title:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #12cad6;
+    margin: 0px auto;
+}
+
+.icon::after {
     content: '👨🏼‍🍳';
     display: block;
     width: 100px;
@@ -91,11 +100,31 @@ body {
     margin: 0px auto;
 }
 
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #164043;
+    text-decoration: underline;
+}
+
+.subtitle:before {
+    content: '';
+    display: block;
+    width: 400px;
+    height: 2px;
+    background-color: #12cad6;
+    margin: 5px auto;
+}
+
 .description {
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 20px;
     color: #164043;
+    text-align: justify;
+    padding: 0 50px;
 }
 
 .ingredients-input {
@@ -104,7 +133,7 @@ body {
     padding: 3px;
     font-size: 1.2rem;
     font-weight: 100;
-    margin: 20px 20px;
+    margin: 10px 50px;
     color: #164043;
     padding: 10px;
 }
@@ -124,7 +153,7 @@ body {
     padding: 3px;
     font-size: 1.2rem;
     font-weight: 100;
-    margin: 20px 20px;
+    margin: 10px 50px;
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -149,7 +178,19 @@ body {
     background: rgba(255, 255, 255, 0.5);
     resize: none;
     height: 280px;
+}
 
+.developer-avatar-container a {
+    display: block;
+    text-decoration: none;
+    color: #164043;
+}
+
+.developer-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 .status {
