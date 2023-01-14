@@ -34,18 +34,18 @@ export const INTRODUCTION_TITLE = {
 };
 
 export const PURPOSE_TITLE = {
-  en: "Purpose of the website",
-  pt: "Propósito do site",
+  en: "About the website",
+  pt: "Sobre o site",
 };
 
 export const PURPOSE_MSG = {
-  en: "Our website is designed to help users make the most out of their ingredients, by providing them with a variety of recipe options that they can make using the ingredients they already have. Whether you're trying to use up some leftovers or just looking for inspiration in the kitchen, our site is here to help.",
-  pt: "Nosso site foi projetado para ajudar os usuários a aproveitar ao máximo seus ingredientes, fornecendo-lhes uma variedade de opções de receitas que eles podem fazer usando os ingredientes que já têm. Se você está tentando usar alguns restos ou apenas procurando inspiração na cozinha, nosso site está aqui para ajudar.",
+  en: "This website is designed to help users make the most out of their ingredients, by providing them with a variety of recipe options that they can make using the ingredients they already have. Whether you're trying to use up some leftovers or just looking for inspiration in the kitchen, our site is here to help.",
+  pt: "Este site foi projetado para ajudar os usuários a aproveitar ao máximo seus ingredientes, fornecendo-lhes uma variedade de opções de receitas que eles podem fazer usando os ingredientes que já têm. Se você está tentando usar alguns alimentos restantes ou apenas procurando inspiração na cozinha, nosso site está aqui para ajudar.",
 };
 
 export const SEARCH_TITLE = {
-  en: "Search Feature",
-  pt: "Funcionalidade de pesquisa",
+  en: "How to search",
+  pt: "Como pesquisar",
 };
 
 export const INPUT_INGREDIENTS_TITLE = {
@@ -54,8 +54,8 @@ export const INPUT_INGREDIENTS_TITLE = {
 };
 
 export const INPUT_INGREDIENTS_MSG = {
-  en: "Users can input any ingredients they have on hand, and our site will search for recipes that include those ingredients. This can be done by typing the ingredient names.",
-  pt: "Os usuários podem inserir quaisquer ingredientes que tenham em mãos e nosso site procurará receitas que incluam esses ingredientes. Isso pode ser feito digitando os nomes dos ingredientes.",
+  en: "You can input any ingredients you have on hand, and our site will search for recipes that include those ingredients.",
+  pt: "Você pode inserir quaisquer ingredientes que tenha em mãos e nosso site procurará receitas que incluam esses ingredientes.",
 };
 
 export const INPUT_RECIPE_TITLE = {
@@ -64,8 +64,8 @@ export const INPUT_RECIPE_TITLE = {
 };
 
 export const INPUT_RECIPE_MSG = {
-  en: "Users can also search for recipes by name, if they have a specific recipe in mind.",
-  pt: "Os usuários também podem pesquisar receitas por nome, se tiverem uma receita específica em mente.",
+  en: "It's also possible to search for recipes by name, if you have a specific recipe in mind.",
+  pt: "É possível também pesquisar receitas por nome, se tiver uma receita específica em mente.",
 };
 
 export const SEARCH_RESULTS_TITLE = {
@@ -74,8 +74,8 @@ export const SEARCH_RESULTS_TITLE = {
 };
 
 export const SEARCH_RESULTS_MSG = {
-  en: "The search results will show a list of recipes that match the user's inputted ingredients or recipe name, along with the recipe's name, ingredients, and instructions.",
-  pt: "Os resultados da pesquisa mostrarão uma lista de receitas que correspondam aos ingredientes ou nome da receita inseridos pelo usuário, juntamente com o nome da receita, ingredientes e instruções.",
+  en: "The search results will show a list of recipes that match your inputted ingredients or recipe name, along with the recipe's name, ingredients, instructions for preparing and yield.",
+  pt: "Os resultados da pesquisa mostrarão uma lista de receitas que correspondam aos ingredientes ou nome da receita que você inseriu, juntamente com o nome da receita, ingredientes, instruções de preparo e rendimento.",
 };
 
 export const RECIPE_GENERATOR_TITLE = {
@@ -89,28 +89,8 @@ export const ALGORITHM_TITLE = {
 };
 
 export const ALGORITHM_MSG = {
-  en: "Our recipe generator uses the power of the ChatGPT-API to generate unique recipes based on the user's inputted ingredients. The algorithm has been trained on a large dataset of recipe data, allowing it to generate a wide variety of recipes that are both delicious and easy to make. The recipe generator produces random recipes every time user uses it, providing users with new and unique recipe ideas each time they use it, which keeps the cooking experience exciting and spontaneous. The generator can also filter the generated recipes based on the user's dietary restrictions, such as gluten-free, vegetarian, or vegan, ensuring that the generated recipe will meet the user's dietary needs. The recipe output includes the recipe title, ingredients, instructions, and the yield, making it easy for users to understand the recipe and make it at their home.",
-  pt: "Nosso gerador de receitas usa o poder da API ChatGPT para gerar receitas únicas com base nos ingredientes inseridos pelo usuário. O algoritmo foi treinado em um grande conjunto de dados de receitas, permitindo que ele gere uma variedade de receitas deliciosas e fáceis de fazer. O gerador de receitas produz receitas aleatórias toda vez que o usuário o usa, fornecendo aos usuários novas e únicas ideias de receitas a cada vez que o usam, o que mantém a experiência de cozinhar emocionante e espontânea. O gerador também pode filtrar as receitas geradas com base nas restrições dietéticas do usuário, como livre de glúten, vegetariano ou vegano, garantindo que a receita gerada atenda às necessidades dietéticas do usuário. A saída da receita inclui o título da receita, ingredientes, instruções e a renda, tornando fácil para os usuários entender a receita e fazê-la em sua casa.",
-};
-
-export const RANDOM_RECIPE_TITLE = {
-  en: "Random generation of recipes",
-  pt: "Geração aleatória de receitas",
-};
-
-export const RANDOM_RECIPE_MSG = {
-  en: "The recipe generator can also generate a random recipe for the user, which can be useful if the user is looking for inspiration in the kitchen. The random recipe output includes the recipe title, ingredients, instructions, and the yield, making it easy for users to understand the recipe and make it at their home.",
-  pt: "O gerador de receitas também pode gerar uma receita aleatória para o usuário, o que pode ser útil se o usuário estiver procurando inspiração na cozinha. A saída da receita aleatória inclui o título da receita, ingredientes, instruções e a renda, tornando fácil para os usuários entender a receita e fazê-la em sua casa.",
-};
-
-export const RECIPE_OUTPUT_TITLE = {
-  en: "Generated recipe",
-  pt: "Receita gerada",
-};
-
-export const RECIPE_OUTPUT_MSG = {
-  en: "The generated recipe includes the recipe title, ingredients, instructions, and the yield, making it easy for users to understand the recipe and make it at their home.",
-  pt: "A receita gerada inclui o título da receita, ingredientes, instruções e a renda, tornando fácil para os usuários entender a receita e fazê-la em sua casa.",
+  en: "Our recipe generator uses the power of the ChatGPT-API to generate unique recipes based on the user's inputted ingredients. The algorithm has been trained on a large dataset of recipe data, allowing it to generate a wide variety of recipes that are both delicious and easy to make. The recipe generator produces random recipes every time user uses it, providing new and unique recipe ideas each time a search is done, which keeps the cooking experience exciting and spontaneous. The generator can also filter the generated recipes based on the user's dietary restrictions, such as gluten-free, vegetarian, or vegan, ensuring that the generated recipe will meet the user's dietary needs. The recipe output includes the recipe title, ingredients, instructions, and the yield, making it easy for users to understand the recipe and make it at their home.",
+  pt: "Nosso gerador de receitas usa o poder da API ChatGPT para gerar receitas únicas com base nos ingredientes inseridos pelo usuário. O algoritmo foi treinado em um grande conjunto de dados de receitas, permitindo que ele gere uma variedade de receitas deliciosas e fáceis de fazer. O gerador de receitas produz receitas aleatórias toda vez que o usuário o usa, fornecendo novas e únicas ideias de receitas a cada vez que uma busca é feita, o que mantém a experiência de cozinhar emocionante e espontânea. O gerador também pode filtrar as receitas geradas com base nas restrições dietéticas do usuário, como livre de glúten, vegetariano ou vegano, garantindo que a receita gerada atenda às necessidades dietéticas de cada pessoa. A saída da receita inclui o título da receita, ingredientes, instruções e o rendimento, tornando fácil para o usuário entender a receita e fazê-la em sua casa.",
 };
 
 export const ABOUT_THE_DEVELOPER_TITLE = {
