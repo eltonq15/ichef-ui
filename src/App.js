@@ -17,11 +17,7 @@ import {
   PLACEHOLDER_MSG,
   PURPOSE_MSG,
   PURPOSE_TITLE,
-  RANDOM_RECIPE_MSG,
-  RANDOM_RECIPE_TITLE,
   RECIPE_GENERATOR_TITLE,
-  RECIPE_OUTPUT_MSG,
-  RECIPE_OUTPUT_TITLE,
   SEARCH_BTN_MSG,
   SEARCH_RESULTS_MSG,
   SEARCH_RESULTS_TITLE,
@@ -144,12 +140,6 @@ const App = () => {
         <h1 className="title">{RECIPE_GENERATOR_TITLE[language]}</h1>
         <h2 className="subtitle">{ALGORITHM_TITLE[language]}</h2>
         <p className="description">{ALGORITHM_MSG[language]}</p>
-
-        <h2 className="subtitle">{RANDOM_RECIPE_TITLE[language]}</h2>
-        <p className="description">{RANDOM_RECIPE_MSG[language]}</p>
-
-        <h2 className="subtitle">{RECIPE_OUTPUT_TITLE[language]}</h2>
-        <p className="description">{RECIPE_OUTPUT_MSG[language]}</p>
       </div>
       <div className="card">
         <h1 className="title">{ABOUT_THE_DEVELOPER_TITLE[language]}</h1>
