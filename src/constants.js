@@ -28,6 +28,11 @@ export const RECIPE_MSG = {
   pt: "criar uma receita com título, ingredientes, modo de preparo, quanto rende, incluindo apenas os seguintes ingredientes ou nome de receita igual a ",
 };
 
+export const LANGUAGE_MSG = {
+  en: " in English language",
+  pt: " em idioma português"
+};
+
 export const INTRODUCTION_TITLE = {
   en: "Introduction",
   pt: "Introdução",
