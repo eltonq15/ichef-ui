@@ -24,8 +24,8 @@ export const SEARCH_BTN_MSG = {
 };
 
 export const RECIPE_MSG = {
-  en: "create a recipe with title, ingredients, preparation mode, how much it yields, including the ingredients: ",
-  pt: "criar uma receita com título, ingredientes, modo de preparo, quanto rende, incluindo os ingredientes: ",
+  en: "create a recipe with title, ingredients, preparation mode, how much it yields, including only the ingredients or recipe name equal to ",
+  pt: "criar uma receita com título, ingredientes, modo de preparo, quanto rende, incluindo apenas os seguintes ingredientes ou nome de receita igual a ",
 };
 
 export const INTRODUCTION_TITLE = {
