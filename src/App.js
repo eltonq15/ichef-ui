@@ -81,6 +81,20 @@ const App = () => {
           <option value="pt" selected={isLanguageSelected("pt")}>
             🇧🇷 Português {isLanguageSelected("pt") && "⬇"}
           </option>
+          {/* also include options for spanish, french, german and italian */}
+
+          <option value="es" selected={isLanguageSelected("es")}>
+            🇪🇸 Español {isLanguageSelected("es") && "⬇"}
+          </option>
+          <option value="fr" selected={isLanguageSelected("fr")}>
+            🇫🇷 Français {isLanguageSelected("fr") && "⬇"}
+          </option>
+          <option value="de" selected={isLanguageSelected("de")}>
+            🇩🇪 Deutsch {isLanguageSelected("de") && "⬇"}
+          </option>
+          <option value="it" selected={isLanguageSelected("it")}>
+            🇮🇹 Italiano {isLanguageSelected("it") && "⬇"}
+          </option>
         </select>
       </nav>
 
