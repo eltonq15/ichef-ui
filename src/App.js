@@ -119,59 +119,75 @@ const App = () => {
         )}
       </div>
       <div className="card">
-        <h1 className="title">{INTRODUCTION_TITLE[language]}</h1>
-        <h2 className="subtitle">{PURPOSE_TITLE[language]}</h2>
-        <p className="description">{PURPOSE_MSG[language]}</p>
+        <details>
+          <summary>
+            <h1 className="title">{INTRODUCTION_TITLE[language]}</h1>
+          </summary>
+          <h2 className="subtitle">{PURPOSE_TITLE[language]}</h2>
+          <p className="description">{PURPOSE_MSG[language]}</p>
+        </details>
       </div>
 
       <div className="card">
-        <h1 className="title">{SEARCH_TITLE[language]}</h1>
-        <h2 className="subtitle">{INPUT_INGREDIENTS_TITLE[language]}</h2>
-        <p className="description">{INPUT_INGREDIENTS_MSG[language]}</p>
+        <details>
+          <summary>
+            <h1 className="title">{SEARCH_TITLE[language]}</h1>
+          </summary>
+          <h2 className="subtitle">{INPUT_INGREDIENTS_TITLE[language]}</h2>
+          <p className="description">{INPUT_INGREDIENTS_MSG[language]}</p>
 
-        <h2 className="subtitle">{INPUT_RECIPE_TITLE[language]}</h2>
-        <p className="description">{INPUT_RECIPE_MSG[language]}</p>
+          <h2 className="subtitle">{INPUT_RECIPE_TITLE[language]}</h2>
+          <p className="description">{INPUT_RECIPE_MSG[language]}</p>
 
-        <h2 className="subtitle">{SEARCH_RESULTS_TITLE[language]}</h2>
-        <p className="description">{SEARCH_RESULTS_MSG[language]}</p>
+          <h2 className="subtitle">{SEARCH_RESULTS_TITLE[language]}</h2>
+          <p className="description">{SEARCH_RESULTS_MSG[language]}</p>
+        </details>
       </div>
 
       <div className="card">
-        <h1 className="title">{RECIPE_GENERATOR_TITLE[language]}</h1>
-        <h2 className="subtitle">{ALGORITHM_TITLE[language]}</h2>
-        <p className="description">{ALGORITHM_MSG[language]}</p>
+        <details>
+          <summary>
+            <h1 className="title">{RECIPE_GENERATOR_TITLE[language]}</h1>
+          </summary>
+          <h2 className="subtitle">{ALGORITHM_TITLE[language]}</h2>
+          <p className="description">{ALGORITHM_MSG[language]}</p>
+        </details>
       </div>
       <div className="card">
-        <h1 className="title">{ABOUT_THE_DEVELOPER_TITLE[language]}</h1>
-        <figure className="developer-avatar-container">
-          <a
-            href="https://www.linkedin.com/in/elton-alves-ribeiro"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="developer-avatar"
-              src={DeveloperAvatar}
-              alt="Developer Avatar"
-            />
-            <figcaption className="developer-name">
-              Elton Alves Ribeiro
-            </figcaption>
-          </a>
-        </figure>
+        <details open>
+          <summary>
+            <h1 className="title">{ABOUT_THE_DEVELOPER_TITLE[language]}</h1>
+          </summary>
+          <figure className="developer-avatar-container">
+            <a
+              href="https://www.linkedin.com/in/elton-alves-ribeiro"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="developer-avatar"
+                src={DeveloperAvatar}
+                alt="Developer Avatar"
+              />
+              <figcaption className="developer-name">
+                Elton Alves Ribeiro
+              </figcaption>
+            </a>
+          </figure>
 
-        <p className="description">
-          {ABOUT_THE_DEVELOPER_MSG[language].first}
-          <br />
-          <br />
-          {ABOUT_THE_DEVELOPER_MSG[language].second}
-          <br />
-          <br />
-          {ABOUT_THE_DEVELOPER_MSG[language].third}
-          <br />
-          <br />
-          {ABOUT_THE_DEVELOPER_MSG[language].fourth}
-        </p>
+          <p className="description">
+            {ABOUT_THE_DEVELOPER_MSG[language].first}
+            <br />
+            <br />
+            {ABOUT_THE_DEVELOPER_MSG[language].second}
+            <br />
+            <br />
+            {ABOUT_THE_DEVELOPER_MSG[language].third}
+            <br />
+            <br />
+            {ABOUT_THE_DEVELOPER_MSG[language].fourth}
+          </p>
+        </details>
       </div>
     </div>
   );

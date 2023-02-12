@@ -67,19 +67,25 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     max-width: 900px;
+    width: 80%;
     margin: 20px 10px;
     position: relative;
     z-index: 1;
     background: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .title {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 40px;
     color: #164043;
+    display: inline-block;
 }
 
 .title:after {
@@ -98,6 +104,7 @@ body {
     height: 5px;
     background-color: #12cad6;
     margin: 0px auto;
+    margin-bottom: 40px;
 }
 
 .subtitle {
@@ -220,4 +227,44 @@ body {
     background: #12cad6;
 }
 
+h1 {
+    margin: 5px;
+}
 
+summary {
+    cursor: pointer;
+    animation: close 1s ease;
+}
+
+summary::marker {
+    color: #12cad6;
+}
+
+summary::before {
+    content: '👨🏼‍🍳';
+}
+
+details[open] {
+    animation: open 1s ease;
+}
+
+@keyframes open {
+    0% {
+        max-height: 60px;
+        overflow: hidden;
+    }
+    100% {
+        max-height: 900px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .description {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
