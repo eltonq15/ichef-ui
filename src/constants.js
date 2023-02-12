@@ -157,6 +157,7 @@ export const RECIPE_GENERATOR_TITLE = {
   es: "Generador de recetas",
   fr: "Générateur de recettes",
   de: "Rezeptgenerator",
+  it: "Generatore di ricette",
 };
 
 export const ALGORITHM_TITLE = {
