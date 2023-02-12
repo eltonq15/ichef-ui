@@ -115,6 +115,7 @@ const App = () => {
             readOnly
             className="recipe"
             defaultValue={recipe}
+            value={recipe}
           ></textarea>
         )}
       </div>
