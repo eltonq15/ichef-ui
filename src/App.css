@@ -179,12 +179,13 @@ body {
 
 .recipe {
     margin: 20px 0;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background: rgba(255, 255, 255, 0.5);
     resize: none;
-    height: 280px;
+    text-align: start;
+    color: #164043;
 }
 
 .developer-avatar-container a {
@@ -260,11 +261,20 @@ details[open] {
 
 @media screen and (max-width: 600px) {
     .title {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
     }
 
     .description {
         font-size: 1.3rem;
         text-align: center;
+    }
+
+    .recipe {
+        font-size: 1rem;
+        padding: 20px;
     }
 }

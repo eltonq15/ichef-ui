@@ -34,13 +34,20 @@ const App = () => {
 
   const { data, isLoading, isError } = useRecipe(ingredients, language);
 
+  const ingredientsRef = useRef(null);
+  const recipeRef = useRef(null);
+
   useEffect(() => {
     if (data) {
       setRecipe(data.data);
     }
   }, [data]);
 
-  const ingredientsRef = useRef(null);
+  useEffect(() => {
+    if (recipeRef.current && recipe) {
+      recipeRef.current.innerHTML = recipe;
+    }
+  }, [recipe, recipeRef]);
 
   const handleChange = () => {
     setDisabled(ingredientsRef.current.value?.length === 0);
@@ -124,14 +131,7 @@ const App = () => {
         {isError && hasSearched && (
           <div className="status error">{ERROR_MSG[language]}</div>
         )}
-        {recipe && (
-          <textarea
-            readOnly
-            className="recipe"
-            defaultValue={recipe}
-            value={recipe}
-          ></textarea>
-        )}
+        {recipe && <div ref={recipeRef} className="recipe" />}
       </div>
       <div className="card">
         <details>

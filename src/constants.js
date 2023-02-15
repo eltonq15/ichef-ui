@@ -43,22 +43,13 @@ export const SEARCH_BTN_MSG = {
   it: "Ricerca 🔍",
 };
 
-export const RECIPE_MSG = {
-  en: "create a recipe with title, ingredients, preparation mode, how much it yields, including only the ingredients or recipe name equal to ",
-  pt: "criar uma receita com título, ingredientes, modo de preparo, quanto rende, incluindo apenas os seguintes ingredientes ou nome de receita igual a ",
-  es: "crear una receta con título, ingredientes, modo de preparación, cuánto rinde, incluyendo solo los siguientes ingredientes o nombre de receta igual a ",
-  fr: "créer une recette avec un titre, des ingrédients, un mode de préparation, combien elle rend, en incluant uniquement les ingrédients ou le nom de la recette égal à ",
-  de: "eine Rezept mit Titel, Zutaten, Zubereitung, wie viel es liefert, einschließlich nur die Zutaten oder Rezeptname gleich ",
-  it: "creare una ricetta con titolo, ingredienti, modalità di preparazione, quanto rende, includendo solo gli ingredienti o il nome della ricetta uguale a ",
-};
-
-export const LANGUAGE_MSG = {
-  en: " in English language",
-  pt: " em idioma português",
-  es: " en idioma español",
-  fr: " en langue française",
-  de: " in der deutschen Sprache",
-  it: " nella lingua italiana",
+export const languagesMap = {
+  en: "American English",
+  pt: "brazilian portuguese",
+  es: "spanish",
+  fr: "french",
+  de: "german",
+  it: "italian",
 };
 
 export const INTRODUCTION_TITLE = {
@@ -335,3 +326,36 @@ export const ABOUT_THE_DEVELOPER_MSG = {
     rendere il sito ancora migliore.`,
   },
 };
+
+export const languages = [
+  {
+    symbol: "en",
+    name: "English",
+    flag: "🇺🇸",
+  },
+  {
+    symbol: "pt",
+    name: "Português",
+    flag: "🇧🇷",
+  },
+  {
+    symbol: "es",
+    name: "Español",
+    flag: "🇪🇸",
+  },
+  {
+    symbol: "fr",
+    name: "Français",
+    flag: "🇫🇷",
+  },
+  {
+    symbol: "de",
+    name: "Deutsch",
+    flag: "🇩🇪",
+  },
+  {
+    symbol: "it",
+    name: "Italiano",
+    flag: "🇮🇹",
+  },
+];
