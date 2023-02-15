@@ -151,6 +151,360 @@ export const RECIPE_GENERATOR_TITLE = {
   it: "Generatore di ricette",
 };
 
+export const SAMPLE_RECIPES = {
+  en: "Generated recipe examples",
+  pt: "Exemplos de receitas geradas",
+  es: "Ejemplos de recetas generadas",
+  fr: "Exemples de recettes générées",
+  de: "Beispiele für generierte Rezepte",
+  it: "Esempi di ricette generate",
+};
+
+export const SAMPLE_RECIPE_1_TITLE = {
+  en: "Peanut Butter Cookies",
+  pt: "Biscoitos de manteiga de amendoim",
+  es: "Galletas de mantequilla de maní",
+  fr: "Cookies au beurre d'arachide",
+  de: "Erdnussbutterkekse",
+  it: "Biscotti al burro di arachidi",
+};
+
+export const SAMPLE_RECIPE_2_TITLE = {
+  en: "Fish and Chips",
+  pt: "Peixe e batatas fritas",
+  es: "Pescado y papas fritas",
+  fr: "Poisson et frites",
+  de: "Fisch und Pommes",
+  it: "Pesce e patatine fritte",
+};
+
+export const SAMPLE_RECIPE_1_MSG = {
+  en: `
+    <h3>Peanut Butter Cookies</h3>
+
+    <b>Ingredients:</b>
+    <ul>
+      <li>1 cup salted butter, at room temperature</li>
+      <li>1 cup creamy peanut butter</li>
+      <li>1 cup packed light brown sugar</li>
+      <li>1 cup granulated sugar</li>
+      <li>2 large eggs, lightly beaten</li>
+      <li>2 teaspoons pure vanilla extract</li>
+      <li>3 cups all-purpose flour</li>
+      <li>2 teaspoons baking powder</li>
+      <li>1 teaspoon baking soda</li>
+    </ul>
+    
+    <b>Preparation:</b>
+    <ol>
+      <li>Preheat oven to 350°F.</li>
+      <li>In the bowl of an electric mixer, combine butter, peanut butter and sugars. Cream together until light and fluffy.</li>
+      <li>Add eggs and vanilla; beat until just combined.</li>
+      <li>In another bowl, whisk together flour, baking powder, and baking soda; stir into peanut butter mixture until combined.</li>
+      <li>Drop dough by heaping spoonfuls onto an ungreased baking sheet, at least 2 inches apart.</li>
+      <li>Bake for 10-12 minutes or until cookies are golden brown around the edges.</li>
+      <li>Remove from oven and let stand for 3 minutes before transferring to a wire rack to cool completely.</li>
+    </ol>
+    
+    <p>Yield: 30 cookies</p>`,
+  pt: `
+    <h3>Biscoitos de Manteiga de Amendoim</h3>
+
+    <h4>Ingredientes</h4>
+    <ul>
+      <li>1 xícara de manteiga de amendoim</li> 
+      <li>2 xícaras de açúcar mascavo</li>
+      <li>3 colheres de sopa de água</li>
+      <li>3 1/3 xícaras de farinha de trigo</li>
+      <li>1 ovo</li>
+      <li>1/2 colher de chá de bicarbonato de sódio</li>
+    <ul>
+
+    <h4>Preparação</h4>
+    <ol>
+      <li>Pré aqueça o forno a 350°F (180°C). </li>
+      <li>Coloque a manteiga de amendoim, açúcar mascavo e água em uma tigela grande. Misture bem até formar uma massa homogênea.</li>
+      <li>Adicione a farinha de trigo, o ovo e o bicarbonato de sódio na tigela. Misture bem com uma espátula até a massa estar bem misturada.</li>
+      <li>Espalhe a massa de biscoito sobre uma assadeira untada com manteiga de amendoim. </li>
+      <li>Leve ao forno por 15 a 20 minutos ou até que o topo dos biscoitos comecem a dourar. </li>
+      <li>Retire do forno e deixe esfriar. </li>
+      <li>Sirva os biscoitos quentes ou à temperatura ambiente.</li>
+    </ol>
+
+    <p>Rende cerca de 24 biscoitos.</p>`,
+  es: `
+    <h3>Galletas de mantequilla de maní</h3>
+
+    <h4>Ingredientes:</h4>
+    <ul>
+      <li>1 taza de mantequilla de maní </li>
+      <li>1/2 taza de azúcar granulada </li>
+      <li>1/2 taza de azúcar morena </li>
+      <li>1 huevo </li>
+      <li>1 cucharada de extracto de vainilla </li>
+      <li>1 cucharadita de bicarbonato de sodio </li>
+      <li>1 1/2 tazas de harina para todo uso </li>
+    </ul>
+    
+    <h4>Preparación:</h4>
+    <ol>
+      <li>Precalienta el horno a 350°F. </li>
+      <li>Mezcla la mantequilla de maní suavizada, los azucares, huevo y el extracto de vainilla en un tazón de mezcla grande. </li>
+      <li>Agregue el bicarbonato de sodio y harina, mezclar hasta que quede bien incorporado.</li>
+      <li>Dobla la masa con una espátula de silicona. </li>
+      <li>Usando una cuchara para helados, formar bolitas del tamaño de una pelota de golf, colocar en una lámina de hornear sin engrasar.</li>
+      <li>Aplastar un poco las bolitas con un tenedor. </li>
+      <li>Hornee durante aproximadamente 10-12 minutos o hasta que se empiecen a dorar ligeramente. </li>
+      <li>Dejar enfriar y disfrutar.</li>
+    </ol>
+    
+    <p>Rinde aproximadamente 24 galletas.</p>`,
+  fr: `
+    <h3>Des cookies au beurre de cacahuète</h3>
+
+    <h4>Ingrédients:</h4>
+    <ul>
+      <li>1 tasse de beurre de cacahuète </li>
+      <li>1/2 tasse de sucre granulé </li>
+      <li>1/2 tasse de cassonade </li>
+      <li>1 oeuf </li>
+      <li>1 cuillère à soupe d'extrait de vanille </li>
+      <li>1 cuillère à café de bicarbonate de soude </li>
+      <li>1 1/2 tasses de farine tout usage </li>
+    </ul>
+
+    <h4>Préparation:</h4>
+    <ol>
+      <li>Préchauffer le four à 350°F. </li>
+      <li>Mélanger le beurre de cacahuète, les sucres, l'oeuf et l'extrait de vanille dans un grand bol. </li>
+      <li>Ajouter le bicarbonate de soude et la farine, mélanger jusqu'à ce que bien incorporé.</li>
+      <li>Former des boules de la taille d'une balle de golf, les placer sur une plaque de cuisson sans graisser.</li>
+      <li>Presser légèrement les boules avec une fourchette. </li>
+      <li>Faire cuire pendant environ 10-12 minutes ou jusqu'à ce qu'elles commencent à dorer légèrement. </li>
+      <li>Laisser refroidir et déguster.</li>
+    </ol>
+
+    <p>Environ 24 cookies.</p>`,
+  de: `
+    <h3>Rezept: Erdnussbutterkekse</h3>
+
+    <h4>Zutaten:</h4> 
+    <ul>
+        <li>100 g weiche Butter</li>
+        <li>100 g brauner Zucker</li>
+        <li>150 g Erdnussbutter</li>
+        <li>1 Ei</li>
+        <li>250 g Mehl</li>
+        <li>1 Teelöffel Natron</li>
+        <li>eine Prise Salz</li>
+    </ul>
+    
+    <h4>Zubereitung:</h4>
+    <ol>
+        <li>Die Butter, den Zucker und die Erdnussbutter in eine Schüssel geben und zusammen mit einem Mixer schaumig rühren.</li>
+        <li>Das Ei unterrühren.</li>
+        <li>Mehl, Natron und Salz hinzufügen und alles zu einem glatten Teig verkneten. </li>
+        <li>Den Teig 15 Minuten im Kühlschrank ruhen lassen.</li>
+        <li>Auf einer bemehlten Arbeitsfläche aus dem Teig Kekse ausstechen. </li>
+        <li>Die Kekse auf ein mit Backpapier ausgelegtes Backblech geben und im vorgeheizten Backofen bei 180 °C ca. 12 Minuten backen.</li>
+        <li>Die Kekse auf einem Gitter abkühlen lassen.</li>
+    </ol>
+    
+    <p>Ergibt ca. 24 Kekse.</p>`,
+  it: `
+    <h3>Biscotti al burro di arachidi</h3>
+
+    <h4>Ingredienti:</h4>
+    <ul>
+      <li>1 tazza di burro di arachidi morbido </li>
+      <li>1/2 tazza di zucchero granulato </li>
+      <li>1/2 tazza di zucchero di canna </li>
+      <li>1 uovo </li>
+      <li>1 cucchiaio da tè di estratto di vaniglia </li>
+      <li>1 cucchiaino da tè di bicarbonato di sodio </li>
+      <li>1 1/2 tazze di farina per uso generale </li>
+    </ul>
+
+    <h4>Preparazione:</h4>
+    <ol>
+      <li>Preriscalda il forno a 350°F. </li>
+      <li>Mischare il burro di arachidi, lo zucchero, l'uovo e l'estratto di vaniglia in una grande ciotola. </li>
+      <li>Aggiungere il bicarbonato di sodio e la farina, mescolare fino a quando non è ben incorporato.</li>
+      <li>Formare delle palline del diametro di una palla da golf, posizionarle su una teglia da forno senza grasso.</li>
+      <li>Appiattire leggermente le palline con una forchetta. </li>
+      <li>Cuocere per circa 10-12 minuti o fino a quando non iniziano a dorare leggermente. </li>
+      <li>Lasciare raffreddare e gustare.</li>
+    </ol>
+
+    <p>Approssimativamente 24 biscotti.</p>`,
+};
+
+export const SAMPLE_RECIPE_2_MSG = {
+  en: `
+    <h3>Fish and Chips</h3>
+    <h4>Ingredients</h4>
+    <ul>
+      <li>2 large potatoes (about 1½ lbs), peeled and cut into strips</li>
+      <li>2 tablespoons vegetable oil</li>
+      <li>1¾ cups flour</li>
+      <li>½ teaspoon garlic powder</li>
+      <li>1 teaspoon paprika</li>
+      <li>1 teaspoon salt</li>
+      <li>1 teaspoon freshly ground black pepper</li>
+      <li>1 cup beer</li>
+      <li>4 (4 oz) cod fillets</li>
+      <li>Vegetable oil for frying</li>
+    </ul>
+    <h4>Preparation</h4>
+    <ol>
+      <li>Preheat oven to 425°F. Place potatoes on an ungreased baking sheet and drizzle with oil. Bake for 25 minutes or until golden brown and crispy.</li>
+      <li>In a shallow dish, mix together flour, garlic powder, paprika, salt, and pepper. Pour in beer and mix with a fork until mixture is smooth and lump-free.</li>
+      <li>Dip each cod fillet into the beer batter and coat evenly. Place in a large skillet over medium heat with about 1 inch of oil. Fry for about 5 minutes per side or until golden brown and cooked through.</li>
+      <li>Serve cod with potatoes.</li>
+    </ol>
+    <p>Yields: 4 servings</p>`,
+  pt: `
+    <h3>Peixe e Batatas Fritas (Fish and Chips) </h3>
+    <h4>Ingredientes:</h4>
+    <ul>
+      <li>500g de bacalhau desfiado;</li>
+      <li>3 ovos;</li>
+      <li>1/2 xícara de farinha de trigo;</li>
+      <li>Meio pacote de queijo ralado;</li>
+      <li>2 colheres de sopa de leite;</li>
+      <li>Pimenta do reino em pó a gosto;</li>
+      <li>Sal a gosto;</li>
+      <li>Farinha de rosca, óleo de soja e farinha de mandioca para empanar;</li>
+      <li>600g de batata;</li>
+      <li>Sal grosso a gosto;</li>
+    </ul>
+    <h4>Preparo:</h4>
+    <ol>
+      <li>Em uma tigela, misture o bacalhau desfiado, os ovos, a farinha de trigo, o queijo ralado, 2 colheres de sopa de leite, e tempere com a pimenta e o sal a gosto;</li>
+      <br>
+      <li>Enrole cada porção da massa como um croquete e passe na farinha de rosca, óleo de soja e depois na farinha de mandioca;</li>
+      <br>
+      <li>Frite os croquetes em óleo quente até dourarem;</li>
+      <br>
+      <li>Descasque os batatas, corte em palitos e frite em óleo bem quente, salgando-os com sal grosso;</li>
+      <br>
+      <li>Sirva os croquetes de bacalhau e as batatas fritas quentes.</li>
+    </ol>
+    <p>Rendimento: 10 porções.</p>`,
+  es: `
+    <h3>Pescado y Papas Fritas (Fish and Chips) </h3>
+    <h4>Ingredientes:</h4>
+    <ul>
+      <li>500g de bacalao desmenuzado;</li>
+      <li>3 huevos;</li>
+      <li>1/2 taza de harina de trigo;</li>
+      <li>Medio paquete de queso rallado;</li>
+      <li>2 cucharadas de leche;</li>
+      <li>Pimienta de reino en polvo al gusto;</li>
+      <li>Sal al gusto;</li>
+      <li>Harina de rosca, aceite de soja y harina de mandioca para empanar;</li>
+      <li>600g de papa;</li>
+      <li>Sal grueso al gusto;</li>
+    </ul>
+    <h4>Preparación:</h4>
+    <ol>
+      <li>En un tazón, mezcle el bacalao desmenuzado, los huevos, la harina de trigo, el queso rallado, 2 cucharadas de leche, y tempere con la pimienta y el sal al gusto;</li>
+      <br>
+      <li>Enrolle cada porción de la masa como un croquete y pase en la harina de rosca, aceite de soja y luego en la harina de mandioca;</li>
+      <br>
+      <li>Frite los croquetes en aceite caliente hasta dorar;</li>
+      <br>
+      <li>Descasque las papas, corte en palitos y fríalas en aceite muy caliente, salándolas con sal grueso;</li>
+      <br>
+      <li>Sirva los croquetes de bacalao y las papas fritas calientes.</li>
+    </ol>
+    <p>Rendimiento: 10 porciones.</p>`,
+  fr: `
+    <h3>Poisson et frites (Fish and Chips) </h3>
+    <h4>Ingrédients:</h4>
+    <ul>
+      <li>500g de morue désossée;</li>
+      <li>3 oeufs;</li>
+      <li>1/2 tasse de farine de blé;</li>
+      <li>Moitié paquet de fromage râpé;</li>
+      <li>2 cuillères à soupe de lait;</li>
+      <li>Poivre de Cayenne en poudre au goût;</li>
+      <li>Sel au goût;</li>
+      <li>Farine de blé, huile de soja et farine de manioc pour paner;</li>
+      <li>600g de pomme de terre;</li>
+      <li>Sel grossier au goût;</li>
+    </ul>
+    <h4>Préparation:</h4>
+    <ol>
+      <li>Dans un bol, mélangez la morue désossée, les oeufs, la farine de blé, le fromage râpé, 2 cuillères à soupe de lait, et assaisonnez avec le poivre et le sel au goût;</li>
+      <br>
+      <li>Enroulez chaque portion de la pâte comme un croquette et passez dans la farine de blé, l'huile de soja et ensuite dans la farine de manioc;</li>
+      <br>
+      <li>Faites frire les croquettes dans l'huile chaude jusqu'à ce qu'elles soient dorées;</li>
+      <br>
+      <li>Épluchez les pommes de terre, coupez-les en bâtonnets et faites-les frire dans l'huile très chaude, salant-les avec du sel grossier;</li>
+      <br>
+      <li>Servez les croquettes de morue et les pommes de terre frites chaudes.</li>
+    </ol>
+    <p>Portions: 10.</p>`,
+  de: `
+    <h3>Fisch und Pommes Frites (Fish and Chips) </h3>
+    <h4>Zutaten:</h4>
+    <ul>
+      <li>500g gekochter Schellfisch;</li>
+      <li>3 Eier;</li>
+      <li>1/2 Tasse Mehl;</li>
+      <li>Halbes Paket geriebener Käse;</li>
+      <li>2 Esslöffel Milch;</li>
+      <li>Pfeffer aus der Mühle nach Geschmack;</li>
+      <li>Salz nach Geschmack;</li>
+      <li>Mehl, Sojaöl und Maniokmehl zum Panieren;</li>
+      <li>600g Kartoffeln;</li>
+      <li>Salz nach Geschmack;</li>
+    </ul>
+    <h4>Zubereitung:</h4>
+    <ol>
+      <li>In einer Schüssel den gekochten Schellfisch, die Eier, das Mehl, den geriebenen Käse, 2 Esslöffel Milch und würzen mit Pfeffer und Salz nach Geschmack vermischen;</li>
+      <br>
+      <li>Jede Portion der Masse wie einen Croquette einrollen und in Mehl, Sojaöl und dann in Maniokmehl panieren;</li>
+      <br>
+      <li>Die Croquettes in heißem Öl frittieren, bis sie goldbraun sind;</li>
+      <br>
+      <li>Die Kartoffeln schälen, in Stifte schneiden und in heißem Öl frittieren, salzen;</li>
+      <br>
+      <li>Die Schellfisch-Croquettes und die frittierten Kartoffeln heiß servieren.</li>
+    </ol>
+    <p>Portionen: 10.</p>`,
+  it: `
+    <h3>Pesce e patatine fritte (Fish and Chips) </h3>
+    <h4>Ingredienti:</h4>
+    <ul>
+      <li>500g di merluzzo;</li>
+      <li>3 uova;</li>
+      <li>1/2 tazza di farina;</li>
+      <li>Mezzo pacchetto di formaggio grattugiato;</li>
+      <li>2 cucchiai di latte;</li>
+      <li>Pepe in polvere a piacere;</li>
+      <li>sale a piacere;</li>
+      <li>Farina, olio di soia e farina di manioca per panare;</li>
+      <li>600g di patate;</li>
+      <li>sale grosso a piacere;</li>
+    </ul>
+    <h4>Preparazione:</h4>
+    <ol>
+      <li>In una ciotola mescolare il merluzzo, le uova, la farina, il formaggio grattugiato, 2 cucchiai di latte e condire con il pepe e il sale a piacere;</li>
+      <br>
+      <li>Avvolgere ogni porzione di impasto come un croccante e passare nella farina, nell'olio di soia e poi nella farina di manioca;</li>
+      <br>
+      <li>Friggere i croccanti nell'olio caldo fino a quando non saranno dorate;</li>
+      <br>
+      <li>Sciacquare le patate, tagliarle a bastoncini e friggerle nell'olio molto caldo, salandole con il sale grosso;</li>
+      <br>
+      <li>Servire i croccanti di merluzzo e le patatine fritte calde.</li>
+    </ol>
+    <p>Porzioni: 10.</p>`,
+};
+
 export const ALGORITHM_TITLE = {
   en: "Artificial intelligence algorithm",
   pt: "Algoritmo de inteligência artificial",

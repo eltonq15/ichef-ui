@@ -116,13 +116,21 @@ body {
     text-decoration: underline;
 }
 
-.subtitle:before {
+.subtitle::before {
     content: '';
     display: block;
     max-width: 400px;
     height: 2px;
     background-color: #12cad6;
     margin: 5px auto;
+}
+
+.no-line::before {
+    display: none;
+}
+
+.no-marker::marker {
+    content: none;
 }
 
 .description {
@@ -234,7 +242,7 @@ h1 {
 
 summary {
     cursor: pointer;
-    animation: close 1s ease;
+    animation: close 0.5s ease;
 }
 
 summary::marker {
@@ -245,8 +253,12 @@ summary::before {
     content: '👨🏼‍🍳';
 }
 
+.no-icon::before {
+    content: '';
+}
+
 details[open] {
-    animation: open 1s ease;
+    animation: open 0.5s ease;
 }
 
 @keyframes open {
