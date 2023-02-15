@@ -202,7 +202,7 @@ const App = () => {
                 {SAMPLE_RECIPE_1_TITLE[language]}
               </h2>
             </summary>
-            <p ref={recipe1DescriptionRef} className="description">
+            <p ref={recipe1DescriptionRef} className="description align-left">
               <h3>Peanut Butter Cookies</h3>
               <b>Ingredients:</b>
               <ul>
@@ -254,7 +254,7 @@ const App = () => {
                 {SAMPLE_RECIPE_2_TITLE[language]}
               </h2>
             </summary>
-            <p ref={recipe2DescriptionRef} className="description">
+            <p ref={recipe2DescriptionRef} className="description align-left">
               <h3>Fish and Chips</h3>
               <h4>Ingredients</h4>
               <ul>
