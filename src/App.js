@@ -137,6 +137,8 @@ const App = () => {
           id="ingredients"
           name="ingredients"
           onKeyDown={handleKeyDown}
+          autoFocus
+          autoComplete="off"
         />
         <button
           className="search-btn"
@@ -314,8 +316,12 @@ const App = () => {
                 alt="Developer Avatar"
               />
               <figcaption className="developer-name">
-                Elton Alves Ribeiro
+                {`Elton Alves Ribeiro `}
+                <sup>
+                  <i class="fa fa-linkedin" style={{ color: "#0a66c2" }} />
+                </sup>
               </figcaption>
+              {/* insert linkedin icon */}
             </a>
           </figure>
 

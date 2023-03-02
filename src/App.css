@@ -2,7 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lora', serif;
-    background: linear-gradient(94deg, #f3ec78, #af4261, #12cad6);
+    background: url('./assets/back-image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     font-size: 1.5rem;
     line-height: 1.5;
     font-weight: 400;
@@ -42,7 +46,7 @@ body {
 }
 
 .language-select {
-    background-color: #12cad6;
+    background-color: #ff0000;
     border: none;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -62,7 +66,6 @@ body {
 }
 
 .card {
-    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -71,9 +74,11 @@ body {
     margin: 20px 10px;
     position: relative;
     z-index: 1;
-    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border: white 1px solid;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -84,7 +89,7 @@ body {
 .title {
     font-size: 2rem;
     font-weight: 700;
-    color: #164043;
+    color: ivory;
     display: inline-block;
 }
 
@@ -93,7 +98,7 @@ body {
     display: block;
     width: 100px;
     height: 5px;
-    background-color: #12cad6;
+    background-color: #ff0000;
     margin: 0px auto;
 }
 
@@ -102,7 +107,7 @@ body {
     display: block;
     width: 100px;
     height: 5px;
-    background-color: #12cad6;
+    background-color: #ff0000;
     margin: 0px auto;
     margin-bottom: 40px;
 }
@@ -112,7 +117,7 @@ body {
     font-weight: bolder;
     margin-bottom: 20px;
     margin-top: 20px;
-    color: #164043;
+    color: ivory;
     text-decoration: underline;
 }
 
@@ -121,7 +126,7 @@ body {
     display: block;
     max-width: 400px;
     height: 2px;
-    background-color: #12cad6;
+    background-color: ivory;
     margin: 5px auto;
 }
 
@@ -137,7 +142,7 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 20px;
-    color: #164043;
+    color: ivory;
     text-align: justify;
     padding: 0 25px;
 }
@@ -149,16 +154,17 @@ body {
 .ingredients-input {
     border: none;
     border-radius: 5px;
-    padding: 3px;
     font-size: 1.2rem;
     font-weight: 100;
     margin: 10px 25px;
-    color: #164043;
+    color: #ff0000;
     padding: 10px;
+    min-width: 278px;
+    width: 70%;
 }
 
 .ingredients-input:focus {
-    outline: 2px solid #12cad6;
+    outline: 2px solid #ff0000;
 }
 
 .ingredients-input::placeholder {
@@ -166,25 +172,25 @@ body {
 }
 
 .search-btn {
-    background-color: #12cad6;
+    background-color: #ff0000;
     border: none;
     border-radius: 5px;
-    padding: 3px;
     font-size: 1.2rem;
     font-weight: 100;
     margin: 10px 25px;
     color: #fff;
     padding: 10px;
     cursor: pointer;
+    min-width: 35%;
 }
 
 .search-btn:hover {
-    background-color: #24969f;
+    background-color: #c60000;
     transition: 0.4s;
 }
 
 .search-btn:disabled {
-    background-color: #ccc;
+    background-color: #ff6d6d;
     color: #fff;
     cursor: not-allowed;
 }
@@ -203,7 +209,8 @@ body {
 .developer-avatar-container a {
     display: block;
     text-decoration: none;
-    color: #164043;
+    color: #ff0000;
+    letter-spacing: 1.5px;
 }
 
 .developer-avatar {
@@ -217,7 +224,7 @@ body {
     font-size: 1.2rem;
     font-weight: 100;
     margin: 20px 20px;
-    color: #164043;
+    color: ivory;
 }
 
 .error {
@@ -237,7 +244,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #12cad6;
+    background: #ff0000;
 }
 
 h1 {
@@ -250,7 +257,7 @@ summary {
 }
 
 summary::marker {
-    color: #12cad6;
+    color: ivory;
 }
 
 summary::before {
@@ -297,5 +304,18 @@ details[open] {
     .align-left {
         text-align: start;
         padding: 10px;
+    }
+
+    .card {
+        align-items: unset;
+    }
+
+    .ingredients-input {
+        width: unset;
+        min-width: unset;
+    }
+
+    .search-btn {
+        min-width: unset;
     }
 }
