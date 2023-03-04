@@ -29,7 +29,6 @@ import {
   SEARCH_TITLE,
   TYPEWRITER_ITEMS,
 } from "./constants";
-import DeveloperAvatar from "./assets/developer-avatar.jpg";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const App = () => {
@@ -327,7 +326,7 @@ const App = () => {
             >
               <img
                 className="developer-avatar"
-                src={DeveloperAvatar}
+                src="developer-avatar.jpg"
                 alt="Developer Avatar"
               />
               <figcaption className="developer-name text-border">
