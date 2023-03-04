@@ -27,8 +27,10 @@ import {
   SEARCH_RESULTS_MSG,
   SEARCH_RESULTS_TITLE,
   SEARCH_TITLE,
+  TYPEWRITER_ITEMS,
 } from "./constants";
 import DeveloperAvatar from "./assets/developer-avatar.jpg";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const App = () => {
   const [ingredients, setIngredients] = useState("");
@@ -45,6 +47,13 @@ const App = () => {
   const recipe1DescriptionRef = useRef(null);
   const recipe2TitleRef = useRef(null);
   const recipe2DescriptionRef = useRef(null);
+
+  const [text] = useTypewriter({
+    words: TYPEWRITER_ITEMS[language],
+    loop: {},
+    typeSpeed: 80,
+    deleteSpeed: 60,
+  });
 
   useEffect(() => {
     if (data) {
@@ -128,6 +137,12 @@ const App = () => {
       <div className="card">
         <h1 className="title icon">iChef</h1>
         <p className="description">{CARD_MSG[language]}</p>
+        <span className="text-border typewriter">
+          {text}
+          <span style={{ color: "#fff" }}>
+            <Cursor />
+          </span>
+        </span>
         <input
           ref={ingredientsRef}
           onChange={handleChange}
@@ -315,7 +330,7 @@ const App = () => {
                 src={DeveloperAvatar}
                 alt="Developer Avatar"
               />
-              <figcaption className="developer-name">
+              <figcaption className="developer-name text-border">
                 {`Elton Alves Ribeiro `}
                 <sup>
                   <i class="fa fa-linkedin" style={{ color: "#0a66c2" }} />

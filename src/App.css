@@ -209,13 +209,13 @@ body {
 .developer-avatar-container a {
     display: block;
     text-decoration: none;
-    color: #ff0000;
-    letter-spacing: 1.5px;
+    color: #fff;
 }
 
 .developer-avatar {
     width: 100px;
     height: 100px;
+    border:ivory 1px solid;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -270,6 +270,15 @@ summary::before {
 
 details[open] {
     animation: open 0.5s ease;
+}
+
+.typewriter {
+    font-weight: bold;
+    color: #ff0000;
+  }
+
+.text-border {
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 @keyframes open {
