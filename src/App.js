@@ -326,7 +326,7 @@ const App = () => {
             >
               <img
                 className="developer-avatar"
-                src="developer-avatar.jpg"
+                src="/developer-avatar.jpg"
                 alt="Photograph of Elton Alves Ribeiro, a fullstack software developer and site developer for iChef Recipe Generator"
               />
               <figcaption className="developer-name text-border">
