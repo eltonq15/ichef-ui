@@ -56,7 +56,7 @@ const App = () => {
 
   useEffect(() => {
     if (data) {
-      setRecipe(data.data);
+      setRecipe(data.data?.choices[0]?.message?.content);
     }
   }, [data]);
 
